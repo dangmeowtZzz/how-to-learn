@@ -322,8 +322,6 @@ padding: 0;
   justify-content: center;
   flex-direction: column;
   align-items: flex-end;
-  margin: 0;
-  padding: 0;
 }
 
 .footer__columns {
@@ -400,15 +398,3 @@ padding: 0;
   flex-direction: column;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-  
-
