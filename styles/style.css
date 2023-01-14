@@ -48,6 +48,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
   
 }
 
@@ -120,11 +122,10 @@ width: 80%;
   margin-bottom: 30px;
 }
 
-.two-colums__paragraph:last-child {
+.two-columns__paragraph:last-child {
   margin: 0;
 }
 
-/* нужно выделить слово "вывод"*/
 .two-columns__span-accent {
   font-size: 24px;
   font-weight: normal;
@@ -143,7 +144,7 @@ width: 80%;
 .section-title {
   margin: 0;
   padding: 0;
-  margin-top: 85px;
+  margin-top: 100px;
   margin-bottom: 20px;
   width: 60%;
   line-height: 1.15;
@@ -169,8 +170,8 @@ width: 80%;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 60px;
   margin: 0 auto 100px auto;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -191,16 +192,20 @@ padding: 0;
 line-height: 1.2;
 font-size: 18px;
 font-weight: normal;
+margin-bottom: 0;
+margin-top: 20px;
 }
 
 .feynman {
   background-color: #f2f2f2;
   position: relative;
   margin: 0;
+  padding: 0;
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 890px;
+
 }
 
 .feynman__title {
@@ -209,9 +214,9 @@ font-weight: normal;
   font-size: 120px;
   font-weight: 600;
   text-align: center;
-  margin: 100px 70px auto;
+  margin-top: 100px;
+  margin-bottom: 70px;
   z-index: 2;
-  padding: 0;
 }
 
 .feynman__subtitle {
@@ -252,12 +257,13 @@ font-weight: normal;
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
 .table_theme_dark {
   width: 1100px;
   padding: 0;
-  margin: 0 auto 90 auto;
+  margin: 0 auto 90px auto;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -270,7 +276,7 @@ font-weight: normal;
   font-size: 24px;
   font-weight: 600;
   margin: 0 0 20px 0;
-  padding: 0;
+  padding: 1;
 }
 
 .table__text_theme_dark{
@@ -279,9 +285,11 @@ font-size: 18px;
 font-weight: normal;
 margin: 0;
 padding: 0;
+z-index: 1;
 }
 
 .section-title_theme_dark {
+  margin-top: 90px;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -297,6 +305,7 @@ padding: 0;
 }
 
 .table__cell_theme_dark {
+  margin-top: 80px;
   width: 200px;
   color: white;
   z-index: 1;
@@ -310,7 +319,7 @@ padding: 0;
   background-size: cover;
   width: 877px;
   height: 877px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .footer{
@@ -319,16 +328,16 @@ padding: 0;
   padding: 60px 0 40px 0;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 .footer__columns {
   display: flex;
   flex-direction: row;
   width: 90%;
-  margin: 60px auto 40px auto;
+  margin: auto;
   justify-content: space-between;
   padding: 0;
 }
@@ -337,9 +346,9 @@ padding: 0;
 justify-content: space-between;
 display: flex;
 flex-direction: column;
-align-items: flex-end;
 margin: 0;
 padding: 0;
+flex-basis: 711px;
 }
 
 .logo_place_footer {
@@ -352,17 +361,14 @@ font-size: 18px;
 line-height: 25px;
 font-weight: 600;
 color: white;
-margin: 0;
-padding: 0;
-
-
+margin-bottom: 18px;
+margin-top: 18px;
 }
 
 .footer__column_content-info {
   display: flex;
   flex-direction: column;
   color: white;
-  left: 0%;
 }
 
 .footer__column-heading {
@@ -391,10 +397,18 @@ padding: 0;
   font-weight: normal;
   color: white;
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .footer__column_content-social {
   display: flex;
   flex-direction: column;
   color: white;
+}
+
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
