@@ -519,6 +519,11 @@
   padding: 0;
 }
 
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column_content_copyright {
   justify-content: space-between;
   display: flex;
