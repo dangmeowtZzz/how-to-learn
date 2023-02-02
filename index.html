@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="root">
@@ -18,7 +18,7 @@
         <a href="#" class="header__link"> Узнать &rarr;</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Опять Двойка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -30,8 +30,8 @@
               материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше
               сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит
               пользы.</p>
-            <p class="two-columns__paragraph"><span class="two-columns__span-accent"><strong>Вывод:
-                </strong></span>учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:
+</span>учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
               сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
@@ -41,7 +41,7 @@
       <section class="techniques" id="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <section class="cards">
+        <div class="cards">
           <div class="cards__item">
             <img class="cards__image" src="./images/cards-attention.png" alt="Фотография обложки книги '101 очерк, который изменит ваш образ мышления' писательницы Брианны Вист.">
             <h3 class="cards__title">Два вида внимания</h3>
@@ -67,7 +67,7 @@
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
-        </section>
+        </div>
       </section>
 
       <section class="video">
@@ -107,40 +107,40 @@
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <p class="section-subtitle">Про учебу и мозг</p>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
           <li class="table__cell">
-            <h2 class="table__heading">86 миллиардов</h2>
+            <h3 class="table__heading">86 миллиардов</h3>
             <p class="table__text">Число нейронов в мозге человека</p>
           </li>
           <li class="table__cell">
-            <h2 class="table__heading">2.1 миллиарда</h2>
+            <h3 class="table__heading">2.1 миллиарда</h3>
             <p class="table__text">Число нуждающихся в повышении квалификации</p>
-            <p class="table__text">Всемирный Банк, 2017</p>
+            <cite class="table__text">Всемирный Банк, 2017</cite>
           </li>
           <li class="table__cell">
-            <h2 class="table__heading">1000 терабайт</h2>
+            <h3 class="table__heading">1000 терабайт</h3>
             <p class="table__text">Объём памяти человека</p>
           </li>
           <li class="table__cell">
-            <h2 class="table__heading">500 триллионов</h2>
+            <h3 class="table__heading">500 триллионов</h3>
             <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
           </li>
           <li class="table__cell">
-            <h2 class="table__heading">420 миллионов</h2>
+            <h3 class="table__heading">420 миллионов</h3>
             <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p class="table__text">Всемирный Банк, 2017</p>
+            <cite class="table__text">Всемирный Банк, 2017</cite>
           </li>
           <li class="table__cell">
-            <h2 class="table__heading">17–20 лет</h2>
+            <h3 class="table__heading">17–20 лет</h3>
             <p class="table__text">Пик обучаемости</p>
           </li>
           <li class="table__cell">
-            <h2 class="table__heading">1885 год</h2>
+            <h3 class="table__heading">1885 год</h3>
             <p class="table__text">Открытие кривой забывания</p>
           </li>
           <li class="table__cell">
-            <h2 class="table__heading">1889 год</h2>
+            <h3 class="table__heading">1889 год</h3>
             <p class="table__text">Открытие условного рефлекса</p>
           </li>
         </ul>
@@ -149,12 +149,12 @@
       <section class="khan">
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
-          <h3 class="khan__title">Весь мир — школа</h3>
+          <h2 class="khan__title">Весь мир — школа</h2>
           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов
                                 по всему миру. Книгу «Весь мир — школа» нужно прочитать всем,
                                 кто занимается образованием — так учащиеся повсюду смогут
                                 получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
-          <h4 class="khan__quote-author">Джордж Лукас</h4>
+          <h2 class="khan__quote-author">Джордж Лукас</h2>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги 'Весь мир - школа. Преобразованное образование' автора Салмана Хана.">
@@ -209,17 +209,17 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
 
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
-          <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип просветительского проекта 'Арзамас', посвященного истории культуры."></a></li>
-          <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип научно-популярного развлекательного издания о науке и технике 'Н + 1'."></a></li>
-          <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип образовательного учреждения 'Стрелка' в области архитектуры, дизайна и медиа."></a></li>
-          <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" src="../images/logo/resources-polka.svg" alt="Логотип образовательного проекта 'Полка' о произведениях русской литературы."></a></li>
+          <li><a class="resources__link" href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип просветительского проекта 'Арзамас', посвященного истории культуры."></a></li>
+          <li><a class="resources__link" href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип научно-популярного развлекательного издания о науке и технике 'Н + 1'."></a></li>
+          <li><a class="resources__link" href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип образовательного учреждения 'Стрелка' в области архитектуры, дизайна и медиа."></a></li>
+          <li><a class="resources__link" href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип образовательного проекта 'Полка' о произведениях русской литературы."></a></li>
         </ul>
       </section>
 
@@ -230,7 +230,7 @@
           <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекса">
           <p class="footer__author">&copy; Данг Хоанг</p>
         </div>
-        <nav class="footer__column footer__column_content-info">
+        <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
             <li><a class="footer__column-link" href="#">Главная</a></li>
@@ -238,7 +238,7 @@
             <li><a class="footer__column-link" href="#">Наставники</a></li>
           </ul>
         </nav>
-        <nav class="footer__column footer__column_content-social">
+        <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li><a class="footer__column-link" href="#"><img class="footer__social-icon" alt="Ютуб"
